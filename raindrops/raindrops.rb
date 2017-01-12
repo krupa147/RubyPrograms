@@ -1,8 +1,7 @@
 class Raindrops
-  def self.convert(num)
-		
-	  text = ""
-		if(num%3==0)
+  def self.convert(num)		
+    text = ""
+    if(num%3==0)
       text += "Pling"
     end
     if(num%5==0)
@@ -16,6 +15,5 @@ class Raindrops
     else 
      	return "#{num}"
     end
-    
-	end
+   end
 end
