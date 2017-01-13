@@ -11,7 +11,7 @@ class Squares
       @sum_of_squares=sum_of_square
   end
   def square_of_sum
-      @sum_of_num
+    @sum_of_num
   end
   def difference
     @sum_of_num-@sum_of_squares
