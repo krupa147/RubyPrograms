@@ -9,8 +9,6 @@ class Pangram
         count += 1
       end
     end
-    if(count==26)
-      return true
-    end
+    return true if(count==26)  
   end
 end
