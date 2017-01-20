@@ -24,7 +24,7 @@ class Meetup
       when :fourth
       	Date.new(@year, @month,result[3])
       when :last
-       	Date.new(@year, @month,result.last)
+        Date.new(@year, @month,result.last)
       end
   end
 end
