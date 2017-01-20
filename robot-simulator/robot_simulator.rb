@@ -13,9 +13,9 @@ class Robot
   	  @dir = :north
   	when :south
   	  @dir = :south
-    else
-      raise ArgumentError
-    end
+      else
+        raise ArgumentError
+      end
   end
   def bearing
   	@dir
