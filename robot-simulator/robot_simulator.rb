@@ -13,7 +13,7 @@ class Robot
   	  @dir = :north
   	when :south
   	  @dir = :south
-    else 
+    else
       raise ArgumentError
     end
   end
