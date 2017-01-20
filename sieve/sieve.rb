@@ -1,6 +1,6 @@
 class Sieve
   def initialize num
-  	@num = num
+    @num = num
   end
   def primes
     array = []
