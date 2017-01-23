@@ -1,6 +1,6 @@
 class Grains
-	def self.square(num)
-		if num > 0 && num < 65			
+  def self.square(num)
+	  if num > 0 && num < 65			
 			return 1 if num == 1
 			return 2 ** (num -1)
 		else
