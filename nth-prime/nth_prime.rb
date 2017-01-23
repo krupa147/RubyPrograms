@@ -1,6 +1,6 @@
 require 'prime'
 class Prime
-	def self.nth(index)
+def self.nth(index)
 		if index<=0
 			raise ArgumentError
 		else
