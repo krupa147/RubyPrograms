@@ -11,7 +11,7 @@ class Phrase
 			word = word.downcase
 			if word[0] == "'" && word[-1] == "'"
 				 word[0] = ''
-+        word[-1] = ''
+	       word[-1] = ''
 			end
    		if input_hash.key?(word) 
    			input_hash[word] = input_hash[word] + 1
