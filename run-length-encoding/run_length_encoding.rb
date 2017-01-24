@@ -31,7 +31,7 @@ class RunLengthEncoding
 					text += c
 				else
 					text += c * count
-					count = 0
+				  count = 0
 				end
 			end
 		end
