@@ -1,5 +1,5 @@
 class Trinary
-
+  
   def initialize(num)
     @num_to_convert = num
   end
