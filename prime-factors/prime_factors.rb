@@ -4,7 +4,7 @@ class PrimeFactors
     i = 2
     factors = []
     while num > 1      
-      if num % i ==0
+      if num % i == 0
         num = num / i        
         factors.push(i)
       else
